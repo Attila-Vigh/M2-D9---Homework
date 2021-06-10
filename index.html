@@ -27,7 +27,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4 text-center">Fluid jumbotron</h1>
+            <h1 class="display-4 text-center mb-3">Fluid jumbotron</h1>
             <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est dignissimos molestias eaque, voluptatibus saepe mollitia, delectus sed ipsa provident, quia omnis minus alias ullam cupiditate nam accusantium modi quidem.</p>
         </div>
     </div>
@@ -103,6 +103,39 @@
                 </div>
         </section>
 
+        <section class="container">
+            <h2>Favorite List</h2>         
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Order</th>
+                    <th>Title</th>
+                    <th>Duration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>AC / DC</td>
+                    <td>70:03</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Nirvana</td>
+                    <td>68:12</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Queen</td>
+                    <td>80:09</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+
+
+        </section>
+
         <h2 id="reviews">Review</h2>
         <section class="reviews">
             <ul class="list-unstyled">
@@ -137,11 +170,32 @@
             .icon {
                 width: 50px;
                 height: 50px;
+                box-sizing: border-box;
+                padding: 10px;
             }
         </style>
+
+        
         <img class="icon" src="/assets/img/github.svg" alt="Bootstrap" ...>
         <img class="icon" src="/assets/img/linkedin.svg" alt="Bootstrap" ...>
         
+            <div class="row">
+        <form>
+            <h3>Contact me</h3>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Message"  ></textarea>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary btn-success">Submit</button>
+            <button type="button" class="btn btn-secondary btn-danger">Clear</button>
+          </div>
+        </div>
+        </form>
     </footer>
 
 
