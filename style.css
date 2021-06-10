@@ -12,6 +12,13 @@ footer{
     background-image: url(https://images.unsplash.com/photo-1607108003066-7728a0b79977?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80);
 }
 
+.icon {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
 form{
     margin: 0 auto;
 }
